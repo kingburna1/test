@@ -1,0 +1,44 @@
+img{
+    width: 150px ;
+    height:200px ;
+    border-radius: 7px;
+    
+}
+img:hover{
+    transition: 187px ease-in-out;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    
+
+}
+.body{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+body{
+    width:800px;
+}
+.heading{
+    display: flex;
+}
+.us{
+    color: red;
+}
+.images1{
+    background-image: 
+    url("https://graziamagazine.com/me/wp-content/uploads/sites/16/2023/11/best-restaurants-with-a-view-dubai-french-riviera-beach.jpg?w=240");
+    
+}
+
+.us{
+    width:  10px;
+    height: 50px;
+}

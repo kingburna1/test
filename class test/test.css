@@ -1,0 +1,44 @@
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* Your flexbox container properties */
+    }
+    .product-card {
+        height:450px ;
+        width: 250px; 
+      border: 1px;
+      border-radius:5px ;
+      background-color: grey;
+    /* Box model properties */
+    box-sizing: border-box;
+    /* Add your properties */
+    }
+    .product-image {
+        align-items: center;
+        width: 100px;
+      height: 280px;
+      
+
+    /* Image container properties */
+    }
+
+    .product-info {
+        
+        text-align: center;
+    
+    /* Flex properties for internal layout */
+    }
+    .buy-button {
+        color: #fff;
+        background-color: black;
+        
+    /* Button styling with box model considerations */
+    }
+    H1{
+        color:black;
+        text-align: center;
+        font-style: italic;
+    }
